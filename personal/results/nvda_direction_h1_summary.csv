@@ -1,0 +1,11 @@
+metric,value,detail
+kronos direction hit rate,0.459,"56/122, p=0.42 vs coin flip"
+always_up direction hit rate,0.541,"66/122, p=0.42 vs coin flip"
+momentum direction hit rate,0.525,"64/122, p=0.65 vs coin flip"
+reversal direction hit rate,0.475,"58/122, p=0.65 vs coin flip"
+kronos Brier score (p_up),0.335,base rate only: 0.248
+"corr(forecast return, actual return)",-0.247,"1-day returns, n=122"
+kronos 80% range coverage,0.566,average width 4.3% of price
+vol 80% range coverage,0.811,average width 6.0% of price
+"avg return when kronos says up, %",-0.225,vs when it says down: 0.406
+"avg return following kronos, %",-0.107,always holding: 0.106
